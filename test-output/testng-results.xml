@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="119" started-at="2021-08-12T07:21:07Z" finished-at="2021-08-12T07:21:07Z">
+  <suite name="Default suite" duration-ms="1492" started-at="2021-08-12T08:25:50Z" finished-at="2021-08-12T08:25:51Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="119" started-at="2021-08-12T07:21:07Z" finished-at="2021-08-12T07:21:07Z">
-      <class name="com.learnings.docker.DataProviderTesting">
-        <test-method status="PASS" signature="getTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.learnings.docker.DataProviderTesting@4f970963]" name="getTest" duration-ms="19" started-at="2021-08-12T12:51:07Z" data-provider="TestData" finished-at="2021-08-12T12:51:07Z">
+    <test name="Default test" duration-ms="1492" started-at="2021-08-12T08:25:50Z" finished-at="2021-08-12T08:25:51Z">
+      <class name="com.learnings.docker.DataProviderExcel">
+        <test-method status="PASS" signature="getTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.learnings.docker.DataProviderExcel@50b494a6]" name="getTest" duration-ms="30" started-at="2021-08-12T13:55:51Z" data-provider="TestData" finished-at="2021-08-12T13:55:51Z">
           <params>
             <param index="0">
               <value>
@@ -28,37 +28,16 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getTest -->
-        <test-method status="PASS" signature="getTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.learnings.docker.DataProviderTesting@4f970963]" name="getTest" duration-ms="18" started-at="2021-08-12T12:51:07Z" data-provider="TestData" finished-at="2021-08-12T12:51:07Z">
+        <test-method status="PASS" signature="getTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.learnings.docker.DataProviderExcel@50b494a6]" name="getTest" duration-ms="5" started-at="2021-08-12T13:55:51Z" data-provider="TestData" finished-at="2021-08-12T13:55:51Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Alok]]>
+                <![CDATA[Sanjiv]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Mehra]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[UP]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getTest -->
-        <test-method status="PASS" signature="getTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.learnings.docker.DataProviderTesting@4f970963]" name="getTest" duration-ms="2" started-at="2021-08-12T12:51:07Z" data-provider="TestData" finished-at="2021-08-12T12:51:07Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Mohan]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Singh]]>
+                <![CDATA[Ryat]]>
               </value>
             </param>
             <param index="2">
@@ -70,7 +49,28 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getTest -->
-      </class> <!-- com.learnings.docker.DataProviderTesting -->
+        <test-method status="PASS" signature="getTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.learnings.docker.DataProviderExcel@50b494a6]" name="getTest" duration-ms="9" started-at="2021-08-12T13:55:51Z" data-provider="TestData" finished-at="2021-08-12T13:55:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Hassem]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Bawja]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[UP]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTest -->
+      </class> <!-- com.learnings.docker.DataProviderExcel -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
