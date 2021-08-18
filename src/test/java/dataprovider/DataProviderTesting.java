@@ -1,4 +1,4 @@
-package com.learnings.docker;
+package dataprovider;
 
 import org.testng.annotations.Test;
 import org.testng.annotations.DataProvider;

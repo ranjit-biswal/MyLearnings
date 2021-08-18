@@ -1,4 +1,4 @@
-package com.learnings.docker;
+package com.learnings.lambda;
 
 import java.util.ArrayList;
 import java.util.stream.Stream;
