@@ -32,17 +32,34 @@ public class Lambda2 {
 	public void stremMap() {
 		Stream.of("Ranjit", "Rahul", "Sanjit", "Manjit", "Baljit").filter(a -> a.endsWith("t"))
 				.map(a -> a.toUpperCase()).forEach(a -> System.out.println(a));
-		
+
 		Stream.of("Ranjit", "Rahul", "Sanjit", "Manjit", "Baljit").filter(a -> a.startsWith("t")).sorted()
-		.map(a -> a.toUpperCase()).forEach(a -> System.out.println(a));
+				.map(a -> a.toUpperCase()).forEach(a -> System.out.println(a));
 	}
 
 	@Test
 	public void stremMapSorted() {
 
-		List<String>arr= (List) Arrays.asList("Ranjit", "Rahul", "Sanjit", "Manjit", "Baljit");
-		
-		arr.stream().filter(a -> a.startsWith("R")).sorted()
-		.map(a -> a.toUpperCase()).forEach(a -> System.out.println(a));
+		List<String> arr = (List) Arrays.asList("Ranjit", "Rahul", "Sanjit", "Manjit", "Baljit");
+
+		arr.stream().filter(a -> a.startsWith("R")).sorted().map(a -> a.toUpperCase())
+				.forEach(a -> System.out.println(a));
+	}
+
+	@Test
+	public void concant() {
+		ArrayList<String> arr = new ArrayList<String>();
+
+		arr.add("Ranjit");
+		arr.add("Mnajeet");
+		arr.add("Harish");
+		arr.add("Rahu");
+		arr.add("Sujit");
+
+		List<String> arr1 = (List) Arrays.asList("Boy", "Man", "Women", "Days", "left");
+
+		Stream<String> newStream = Stream.concat(arr.stream(), arr1.stream());
+		newStream.forEach(a -> System.out.println(a));
+
 	}
 }
