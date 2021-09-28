@@ -1,25 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" total="8" passed="8">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="364" started-at="2021-08-20T14:13:54Z" finished-at="2021-08-20T14:13:54Z">
+  <suite name="Suite" duration-ms="117" started-at="2021-09-28T10:23:48Z" finished-at="2021-09-28T10:23:48Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="364" started-at="2021-08-20T14:13:54Z" finished-at="2021-08-20T14:13:54Z">
-      <class name="com.learnings.lambda.Lambda3">
-        <test-method status="PASS" signature="match()[pri:0, instance:com.learnings.lambda.Lambda3@2b9627bc]" name="match" duration-ms="189" started-at="2021-08-20T19:43:54Z" finished-at="2021-08-20T19:43:54Z">
+    <test name="Window OS" duration-ms="117" started-at="2021-09-28T10:23:48Z" finished-at="2021-09-28T10:23:48Z">
+      <class name="com.learnings.testng.MacValidations">
+        <test-method status="PASS" signature="showMob()[pri:0, instance:com.learnings.testng.MacValidations@47ef968d]" name="showMob" duration-ms="20" started-at="2021-09-28T15:53:48Z" finished-at="2021-09-28T15:53:48Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- match -->
-        <test-method status="PASS" signature="streamCollect()[pri:0, instance:com.learnings.lambda.Lambda3@2b9627bc]" name="streamCollect" duration-ms="19" started-at="2021-08-20T19:43:54Z" finished-at="2021-08-20T19:43:54Z">
+        </test-method> <!-- showMob -->
+        <test-method status="PASS" signature="showMob1()[pri:0, instance:com.learnings.testng.MacValidations@47ef968d]" name="showMob1" duration-ms="3" started-at="2021-09-28T15:53:48Z" finished-at="2021-09-28T15:53:48Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- streamCollect -->
-        <test-method status="PASS" signature="streamDistinct()[pri:0, instance:com.learnings.lambda.Lambda3@2b9627bc]" name="streamDistinct" duration-ms="114" started-at="2021-08-20T19:43:54Z" finished-at="2021-08-20T19:43:54Z">
+        </test-method> <!-- showMob1 -->
+        <test-method status="PASS" signature="showWeb()[pri:0, instance:com.learnings.testng.MacValidations@47ef968d]" name="showWeb" duration-ms="2" started-at="2021-09-28T15:53:48Z" finished-at="2021-09-28T15:53:48Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- streamDistinct -->
-      </class> <!-- com.learnings.lambda.Lambda3 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- showWeb -->
+        <test-method status="PASS" signature="showWeb1()[pri:0, instance:com.learnings.testng.MacValidations@47ef968d]" name="showWeb1" duration-ms="2" started-at="2021-09-28T15:53:48Z" finished-at="2021-09-28T15:53:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- showWeb1 -->
+      </class> <!-- com.learnings.testng.MacValidations -->
+      <class name="com.learnings.testng.WindowsValidations">
+        <test-method status="PASS" signature="showMob()[pri:0, instance:com.learnings.testng.WindowsValidations@5ae63ade]" name="showMob" duration-ms="7" started-at="2021-09-28T15:53:48Z" finished-at="2021-09-28T15:53:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- showMob -->
+        <test-method status="PASS" signature="showMob1()[pri:0, instance:com.learnings.testng.WindowsValidations@5ae63ade]" name="showMob1" duration-ms="5" started-at="2021-09-28T15:53:48Z" finished-at="2021-09-28T15:53:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- showMob1 -->
+        <test-method status="PASS" signature="showWeb()[pri:0, instance:com.learnings.testng.WindowsValidations@5ae63ade]" name="showWeb" duration-ms="6" started-at="2021-09-28T15:53:48Z" finished-at="2021-09-28T15:53:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- showWeb -->
+        <test-method status="PASS" signature="showWeb1()[pri:0, instance:com.learnings.testng.WindowsValidations@5ae63ade]" name="showWeb1" duration-ms="2" started-at="2021-09-28T15:53:48Z" finished-at="2021-09-28T15:53:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- showWeb1 -->
+      </class> <!-- com.learnings.testng.WindowsValidations -->
+    </test> <!-- Window OS -->
+  </suite> <!-- Suite -->
 </testng-results>

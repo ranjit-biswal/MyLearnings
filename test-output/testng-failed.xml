@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test verbose="2" name="Default test">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Window OS">
+    <packages>
+      <package name="com.learnings.testng"/>
+    </packages>
     <classes>
-      <class name="com.learnings.lambda.Lambda3"/>
+      <class name="com.learnings.testng.MacValidations"/>
+      <class name="com.learnings.testng.WindowsValidations"/>
     </classes>
-  </test> <!-- Default test -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Window OS -->
+</suite> <!-- Failed suite [Suite] -->
