@@ -2,15 +2,15 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="19534" started-at="2021-09-28T11:04:10Z" finished-at="2021-09-28T11:04:30Z">
+  <suite name="Default suite" duration-ms="22209" started-at="2021-09-28T13:09:48Z" finished-at="2021-09-28T13:10:11Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="19534" started-at="2021-09-28T11:04:10Z" finished-at="2021-09-28T11:04:30Z">
+    <test name="Default test" duration-ms="22209" started-at="2021-09-28T13:09:48Z" finished-at="2021-09-28T13:10:11Z">
       <class name="com.learnings.test.HomePageTest">
-        <test-method status="PASS" signature="Login()[pri:0, instance:com.learnings.test.HomePageTest@5b87ed94]" name="Login" duration-ms="19510" started-at="2021-09-28T16:34:10Z" finished-at="2021-09-28T16:34:30Z">
+        <test-method status="PASS" signature="validateLogin()[pri:0, instance:com.learnings.test.HomePageTest@23e028a9]" name="validateLogin" duration-ms="22186" started-at="2021-09-28T18:39:48Z" finished-at="2021-09-28T18:40:11Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Login -->
+        </test-method> <!-- validateLogin -->
       </class> <!-- com.learnings.test.HomePageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

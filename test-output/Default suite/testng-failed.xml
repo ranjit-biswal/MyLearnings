@@ -3,7 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test verbose="2" name="Default test">
     <classes>
-      <class name="com.learnings.test.HomePageTest"/>
+      <class name="com.learnings.test.HomePageTest">
+        <methods>
+          <include name="validateLogin"/>
+        </methods>
+      </class> <!-- com.learnings.test.HomePageTest -->
     </classes>
   </test> <!-- Default test -->
 </suite> <!-- Failed suite [Default suite] -->
