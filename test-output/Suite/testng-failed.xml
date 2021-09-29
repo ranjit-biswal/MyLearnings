@@ -2,6 +2,11 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <test name="Window OS">
+    <groups>
+      <run>
+        <include name="Sanity"/>
+      </run>
+    </groups>
     <packages>
       <package name="com.learnings.testng"/>
     </packages>

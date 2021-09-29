@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="22209" started-at="2021-09-28T13:09:48Z" finished-at="2021-09-28T13:10:11Z">
+  <suite name="Default suite" duration-ms="126408" started-at="2021-09-29T09:18:17Z" finished-at="2021-09-29T09:20:24Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="22209" started-at="2021-09-28T13:09:48Z" finished-at="2021-09-28T13:10:11Z">
-      <class name="com.learnings.test.HomePageTest">
-        <test-method status="PASS" signature="validateLogin()[pri:0, instance:com.learnings.test.HomePageTest@23e028a9]" name="validateLogin" duration-ms="22186" started-at="2021-09-28T18:39:48Z" finished-at="2021-09-28T18:40:11Z">
+    <test name="Default test" duration-ms="126408" started-at="2021-09-29T09:18:17Z" finished-at="2021-09-29T09:20:24Z">
+      <class name="com.learnings.miscellaneous.FindBrokenLinks">
+        <test-method status="PASS" signature="getBrokenLinks()[pri:0, instance:com.learnings.miscellaneous.FindBrokenLinks@5b87ed94]" name="getBrokenLinks" duration-ms="126371" started-at="2021-09-29T14:48:17Z" finished-at="2021-09-29T14:50:24Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateLogin -->
-      </class> <!-- com.learnings.test.HomePageTest -->
+        </test-method> <!-- getBrokenLinks -->
+      </class> <!-- com.learnings.miscellaneous.FindBrokenLinks -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

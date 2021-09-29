@@ -13,7 +13,7 @@ public class MacValidations {
 	
 	
 	
-	@Test
+	@Test(groups={"Sanity"})
 	public void showWeb1() {
 
 		System.out.println("Web Show");
@@ -27,7 +27,7 @@ public class MacValidations {
 
 	}
 	
-	@Test
+	@Test(groups={"Sanity"})
 	public void showMob1() {
 
 		System.out.println("Web Show");
