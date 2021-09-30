@@ -1,128 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="2" failed="0" total="8" passed="6">
+<testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="279" started-at="2021-09-30T10:59:07Z" finished-at="2021-09-30T10:59:07Z">
+  <suite name="Default suite" duration-ms="52" started-at="2021-09-30T11:36:32Z" finished-at="2021-09-30T11:36:32Z">
     <groups>
-      <group name="Sanity">
-        <method signature="MacValidations.showWeb1(java.lang.String)[pri:0, instance:com.learnings.testng.MacValidations@57855c9a]" name="showWeb1" class="com.learnings.testng.MacValidations"/>
-        <method signature="MacValidations.showMob1(java.lang.String)[pri:0, instance:com.learnings.testng.MacValidations@57855c9a]" name="showMob1" class="com.learnings.testng.MacValidations"/>
-      </group> <!-- Sanity -->
     </groups>
-    <test name="Window OS" duration-ms="56" started-at="2021-09-30T10:59:07Z" finished-at="2021-09-30T10:59:07Z">
-      <class name="com.learnings.testng.WindowsValidations">
-        <test-method status="PASS" signature="showMob()[pri:0, instance:com.learnings.testng.WindowsValidations@7b49cea0]" name="showMob" duration-ms="15" started-at="2021-09-30T16:29:07Z" finished-at="2021-09-30T16:29:07Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- showMob -->
-        <test-method status="PASS" signature="showMob1()[pri:0, instance:com.learnings.testng.WindowsValidations@7b49cea0]" name="showMob1" duration-ms="2" started-at="2021-09-30T16:29:07Z" finished-at="2021-09-30T16:29:07Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- showMob1 -->
-        <test-method status="PASS" signature="showWeb()[pri:0, instance:com.learnings.testng.WindowsValidations@7b49cea0]" name="showWeb" duration-ms="2" started-at="2021-09-30T16:29:07Z" finished-at="2021-09-30T16:29:07Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- showWeb -->
-        <test-method status="PASS" signature="showWeb1(java.lang.String)[pri:0, instance:com.learnings.testng.WindowsValidations@7b49cea0]" name="showWeb1" duration-ms="2" started-at="2021-09-30T16:29:07Z" finished-at="2021-09-30T16:29:07Z">
+    <test name="Default test" duration-ms="52" started-at="2021-09-30T11:36:32Z" finished-at="2021-09-30T11:36:32Z">
+      <class name="com.learnings.testng.TestDataProvider">
+        <test-method status="PASS" signature="workWithDataProvider(java.lang.String, java.lang.String)[pri:0, instance:com.learnings.testng.TestDataProvider@4f970963]" name="workWithDataProvider" duration-ms="11" started-at="2021-09-30T17:06:32Z" data-provider="dp" finished-at="2021-09-30T17:06:32Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Ranjit]]>
+                <![CDATA[Username1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password1]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- showWeb1 -->
-      </class> <!-- com.learnings.testng.WindowsValidations -->
-    </test> <!-- Window OS -->
-    <test name="Mac OS" duration-ms="60" started-at="2021-09-30T10:59:07Z" finished-at="2021-09-30T10:59:07Z">
-      <class name="com.learnings.testng.MacValidations">
-        <test-method status="PASS" signature="showWeb()[pri:0, instance:com.learnings.testng.MacValidations@57855c9a]" name="showWeb" duration-ms="4" started-at="2021-09-30T16:29:07Z" finished-at="2021-09-30T16:29:07Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- showWeb -->
-        <test-method status="SKIP" signature="showWeb1(java.lang.String)[pri:0, instance:com.learnings.testng.MacValidations@57855c9a]" name="showWeb1" duration-ms="0" started-at="2021-09-30T16:29:07Z" finished-at="2021-09-30T16:29:07Z">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'URL' is required by @Test on method showWeb1 but has not been marked @Optional or defined
-in D:\workspace\Learnings\MyLearnings\testng4.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'URL' is required by @Test on method showWeb1 but has not been marked @Optional or defined
-in D:\workspace\Learnings\MyLearnings\testng4.xml
-	at org.testng.internal.Parameters.createParameters(Parameters.java:154)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:361)
-	at org.testng.internal.Parameters.handleParameters(Parameters.java:451)
-	at org.testng.internal.Invoker.handleParameters(Invoker.java:1274)
-	at org.testng.internal.Invoker.createParameters(Invoker.java:989)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1079)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:782)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-	at org.testng.TestNG.run(TestNG.java:1064)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- showWeb1 -->
-        <test-method status="PASS" signature="showMob1(java.lang.String)[pri:0, instance:com.learnings.testng.MacValidations@57855c9a]" name="showMob1" duration-ms="4" started-at="2021-09-30T16:29:07Z" finished-at="2021-09-30T16:29:07Z">
+        </test-method> <!-- workWithDataProvider -->
+        <test-method status="PASS" signature="workWithDataProvider(java.lang.String, java.lang.String)[pri:0, instance:com.learnings.testng.TestDataProvider@4f970963]" name="workWithDataProvider" duration-ms="4" started-at="2021-09-30T17:06:32Z" data-provider="dp" finished-at="2021-09-30T17:06:32Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Hello]]>
+                <![CDATA[Username2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password2]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- showMob1 -->
-        <test-method status="SKIP" signature="showMob()[pri:0, instance:com.learnings.testng.MacValidations@57855c9a]" name="showMob" duration-ms="0" started-at="2021-09-30T16:29:07Z" depends-on-methods="com.learnings.testng.MacValidations.showWeb1" finished-at="2021-09-30T16:29:07Z">
-          <exception class="java.lang.Throwable">
-            <message>
-              <![CDATA[Method MacValidations.showMob()[pri:0, instance:com.learnings.testng.MacValidations@57855c9a] depends on not successfully finished methods]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method MacValidations.showMob()[pri:0, instance:com.learnings.testng.MacValidations@57855c9a] depends on not successfully finished methods
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1037)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:782)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-	at org.testng.TestNG.run(TestNG.java:1064)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
+        </test-method> <!-- workWithDataProvider -->
+        <test-method status="PASS" signature="workWithDataProvider(java.lang.String, java.lang.String)[pri:0, instance:com.learnings.testng.TestDataProvider@4f970963]" name="workWithDataProvider" duration-ms="6" started-at="2021-09-30T17:06:32Z" data-provider="dp" finished-at="2021-09-30T17:06:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Username3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password3]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- showMob -->
-      </class> <!-- com.learnings.testng.MacValidations -->
-    </test> <!-- Mac OS -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- workWithDataProvider -->
+      </class> <!-- com.learnings.testng.TestDataProvider -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
