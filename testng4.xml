@@ -5,9 +5,7 @@
 		<parameter name="name" value="Ranjit"></parameter>
 		<classes>
 			<class name="com.learnings.testng.WindowsValidations">
-				<methods>
-					<exclude name="showWeb.*"></exclude>
-				</methods>
+
 			</class>
 		</classes>
 	</test> <!-- Test -->
@@ -16,9 +14,7 @@
 		<parameter name="name" value="Hello"></parameter>
 		<classes>
 			<class name="com.learnings.testng.MacValidations">
-				<methods>
-					<include name="showWeb" />
-				</methods>
+
 			</class>
 		</classes>
 

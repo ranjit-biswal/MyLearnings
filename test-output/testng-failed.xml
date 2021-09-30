@@ -1,9 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test verbose="2" name="Default test">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="name" value="Hello"/>
+  <test name="Window OS">
+    <parameter name="name" value="Ranjit"/>
     <classes>
-      <class name="com.learnings.miscellaneous.FindBrokenLinks"/>
+      <class name="com.learnings.testng.WindowsValidations"/>
     </classes>
-  </test> <!-- Default test -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Window OS -->
+  <test name="Mac OS">
+    <parameter name="name" value="Hello"/>
+    <classes>
+      <class name="com.learnings.testng.MacValidations"/>
+    </classes>
+  </test> <!-- Mac OS -->
+  <test name="Mac OS(failed)">
+    <parameter name="name" value="Hello"/>
+    <classes>
+      <class name="com.learnings.testng.MacValidations">
+        <methods>
+          <include name="showWeb1"/>
+          <include name="showMob"/>
+        </methods>
+      </class> <!-- com.learnings.testng.MacValidations -->
+    </classes>
+  </test> <!-- Mac OS(failed) -->
+</suite> <!-- Failed suite [Suite] -->

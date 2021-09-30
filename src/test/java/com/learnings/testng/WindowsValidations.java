@@ -1,5 +1,6 @@
 package com.learnings.testng;
 
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 public class WindowsValidations {
@@ -12,11 +13,12 @@ public class WindowsValidations {
 	}
 	
 	
-	
+	@Parameters({"name"})
 	@Test
-	public void showWeb1() {
+	public void showWeb1(String anno) {
 
 		System.out.println("Web Show");
+		System.out.println(anno);
 
 	}
 

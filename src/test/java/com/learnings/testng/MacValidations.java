@@ -1,5 +1,6 @@
 package com.learnings.testng;
 
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 public class MacValidations {
@@ -12,25 +13,29 @@ public class MacValidations {
 	}
 	
 	
-	
+	@Parameters({"URL"})
 	@Test(groups={"Sanity"})
-	public void showWeb1() {
+	public void showWeb1(String urls) {
 
 		System.out.println("Web Show");
+		System.out.println(urls);
 
 	}
 
-	@Test
+	@Test(dependsOnMethods={"showWeb1"}, timeOut=1)
 	public void showMob() {
 
 		System.out.println("Web Show");
 
 	}
 	
+	@Parameters({"name"})
 	@Test(groups={"Sanity"})
-	public void showMob1() {
+	public void showMob1(String firstname) {
 
 		System.out.println("Web Show");
+		System.out.println(firstname);
+		
 
 	}
 
