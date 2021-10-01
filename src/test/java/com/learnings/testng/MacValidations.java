@@ -1,5 +1,6 @@
 package com.learnings.testng;
 
+import org.testng.Assert;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
@@ -9,6 +10,7 @@ public class MacValidations {
 	public void showWeb() {
 
 		System.out.println("Web Show");
+		Assert.assertTrue(false);
 
 	}
 	

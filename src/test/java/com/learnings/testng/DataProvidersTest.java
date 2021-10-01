@@ -3,7 +3,7 @@ package com.learnings.testng;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-public class TestDataProvider {
+public class DataProvidersTest {
 	
 	@Test(dataProvider="dp")
 //	@Test(dataProvider="getDataSetMethod")

@@ -5,19 +5,18 @@
 		<listener class-name="com.learnings.testng.Listeners" />
 	</listeners>
 	<test name="Window OS">
-
+		<parameter name="name" value="Ranjit"></parameter>
 		<classes>
-			<class name="com.learnings.test.HomePageTest">
+			<class name="com.learnings.testng.WindowsValidations">
 
 			</class>
 		</classes>
 	</test> <!-- Test -->
 
 	<test name="Mac OS">
-		
+		<parameter name="name" value="Hello"></parameter>
 		<classes>
-			<class name="com.learnings.test.HomePageTest2">
-
+			<class name="com.learnings.testng.MacValidations">
 
 			</class>
 		</classes>

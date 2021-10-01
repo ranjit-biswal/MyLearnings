@@ -1,61 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="52" started-at="2021-09-30T11:36:32Z" finished-at="2021-09-30T11:36:32Z">
+  <suite name="Suite" duration-ms="38553" started-at="2021-09-30T14:04:30Z" finished-at="2021-09-30T14:05:09Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="52" started-at="2021-09-30T11:36:32Z" finished-at="2021-09-30T11:36:32Z">
-      <class name="com.learnings.testng.TestDataProvider">
-        <test-method status="PASS" signature="workWithDataProvider(java.lang.String, java.lang.String)[pri:0, instance:com.learnings.testng.TestDataProvider@4f970963]" name="workWithDataProvider" duration-ms="11" started-at="2021-09-30T17:06:32Z" data-provider="dp" finished-at="2021-09-30T17:06:32Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Username1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Password1]]>
-              </value>
-            </param>
-          </params>
+    <test name="Window OS" duration-ms="32691" started-at="2021-09-30T14:04:30Z" finished-at="2021-09-30T14:05:03Z">
+      <class name="com.learnings.test.HomePageTest">
+        <test-method status="PASS" signature="validateLogin()[pri:0, instance:com.learnings.test.HomePageTest@3701eaf6]" name="validateLogin" duration-ms="32671" started-at="2021-09-30T19:34:30Z" finished-at="2021-09-30T19:35:03Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- workWithDataProvider -->
-        <test-method status="PASS" signature="workWithDataProvider(java.lang.String, java.lang.String)[pri:0, instance:com.learnings.testng.TestDataProvider@4f970963]" name="workWithDataProvider" duration-ms="4" started-at="2021-09-30T17:06:32Z" data-provider="dp" finished-at="2021-09-30T17:06:32Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Username2]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Password2]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- validateLogin -->
+      </class> <!-- com.learnings.test.HomePageTest -->
+    </test> <!-- Window OS -->
+    <test name="Mac OS" duration-ms="38553" started-at="2021-09-30T14:04:30Z" finished-at="2021-09-30T14:05:09Z">
+      <class name="com.learnings.test.HomePageTest2">
+        <test-method status="PASS" signature="validateLogin()[pri:0, instance:com.learnings.test.HomePageTest2@7494e528]" name="validateLogin" duration-ms="38534" started-at="2021-09-30T19:34:30Z" finished-at="2021-09-30T19:35:09Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- workWithDataProvider -->
-        <test-method status="PASS" signature="workWithDataProvider(java.lang.String, java.lang.String)[pri:0, instance:com.learnings.testng.TestDataProvider@4f970963]" name="workWithDataProvider" duration-ms="6" started-at="2021-09-30T17:06:32Z" data-provider="dp" finished-at="2021-09-30T17:06:32Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Username3]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Password3]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- workWithDataProvider -->
-      </class> <!-- com.learnings.testng.TestDataProvider -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- validateLogin -->
+      </class> <!-- com.learnings.test.HomePageTest2 -->
+    </test> <!-- Mac OS -->
+  </suite> <!-- Suite -->
 </testng-results>
